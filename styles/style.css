@@ -38,7 +38,7 @@
 }
 
 .c-orange {
-  color: #FF9800;
+  color: #ff9800;
 }
 
 .article-2c {
@@ -65,7 +65,7 @@
 
 .centered {
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .nowrap {
@@ -95,10 +95,12 @@
 
 .img-hexleton {
   z-index: -1;
-  right: -270px;
+  height: 525px;
+  right: 0px;
   top: 55px;
   background-repeat: no-repeat;
   background-size: cover;
+  float: right;
 }
 
 html {
@@ -109,7 +111,8 @@ html {
 }
 
 .block {
-  padding-left: 100px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 h1 {
@@ -132,18 +135,18 @@ h3 {
 
 section {
   display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  max-height: 1110px;
-  margin: 50px 100px;
+  max-width: 1110px;
+  margin: 100px 165px;
 }
 
 button {
   padding: 24px 12px;
   width: 150px;
   border: none;
-  background-color: #FF9800;
+  background-color: #ff9800;
   color: white;
   font-weight: bold;
 }
