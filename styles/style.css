@@ -64,8 +64,7 @@
 }
 
 .centered {
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .nowrap {
@@ -88,49 +87,48 @@
   content: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  max-width: 100%;
   opacity: 0.1;
-  z-index: -1;
+  z-index: -2;
 }
 
 .img-hexleton {
-  z-index: -1;
   height: 525px;
   right: 0px;
   top: 55px;
   background-repeat: no-repeat;
   background-size: cover;
   float: right;
+  z-index: -1;
 }
 
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.6en;
+  line-height: 1.6em;
   color: #2a2626;
-}
-
-.block {
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 h1 {
   font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-size: 72px;
+  font-weight: 400;
+  top: -60px;
 }
 
 h2 {
   font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-size: 60px;
+  font-weight: 400;
 }
 
 h3 {
   font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-size: 34px;
+  font-weight: 400;
 }
 
 section {
@@ -139,7 +137,7 @@ section {
   justify-content: center;
   align-items: center;
   max-width: 1110px;
-  margin: 100px 165px;
+  margin: 100px 165px 0;
 }
 
 button {
