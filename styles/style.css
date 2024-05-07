@@ -65,32 +65,37 @@
 
 .centered {
   align-items: center;
+  justify-content: space-around;
 }
 
 .nowrap {
   text-wrap: nowrap;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .break-aft-col {
   break-after: column;
 }
 
-.max-size {
-  max-width: 1440px;
+.border {
+  border: 1px solid black;
 }
 
 .background {
   content: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
+  width: 100vw;
   opacity: 0.1;
   z-index: -1;
 }
 
 .img-hexleton {
   z-index: -1;
-  right: 270px;
+  right: -270px;
   top: 55px;
   background-repeat: no-repeat;
   background-size: cover;
