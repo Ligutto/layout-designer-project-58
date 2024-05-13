@@ -37,10 +37,6 @@
   color: #1085c5;
 }
 
-.c-orange {
-  color: #ff9800;
-}
-
 .article-2c {
   column-count: 2;
   column-gap: 30px;
@@ -54,6 +50,10 @@
   position: relative;
 }
 
+.pos-f {
+  position: fixed;
+}
+
 .d-block {
   display: block;
   color: #fff;
@@ -63,8 +63,21 @@
   display: flex;
 }
 
+.d-grid {
+  display: grid;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .centered {
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-centered {
+  text-align: center;
 }
 
 .nowrap {
@@ -83,23 +96,158 @@
   border: 1px solid black;
 }
 
-.background {
-  content: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.padding {
+  padding: 0;
+}
+
+.margin{
+  margin: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.background1::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
+  background-color: #d7ccc0;
+  position: absolute;
   opacity: 0.1;
   z-index: -2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.background2 {
+  background-color: #fff;
+}
+
+.background3 {
+  background-color: #2a2626;
+}
+
+.background4::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d7ccc0;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .img-hexleton {
-  height: 525px;
-  right: 0px;
+  max-height: 525px;
+  box-sizing: border-box;
+  right: -270px;
   top: 55px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: right;
   z-index: -1;
+}
+
+.img-ikea {
+  max-height: 100%;
+  box-sizing: border-box;
+  margin-right: 30px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.headerbox {
+  box-sizing: border-box;
+  max-height: 350px;
+  width: 350px;
+  text-color: #2a2626;
+  color: white;
+}
+
+.headerbox > h2{
+  padding: 0;
+  margin: 0;
+  font-size: 52px;
+}
+
+.box {
+  box-sizing: border-box;
+  max-height: 350px;
+  width: 350px;
+  padding: 24px;
+  background-color: #f5f4f0;
+}
+
+.number {
+  font-family: "Neucha", cursive;
+  padding-bottom: 40px;
+  font-size: 64px;
+  line-height: 1;
+}
+
+#block2 > section {
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+#block2 > p {
+  margin-bottom: 30px;  
+}
+
+#block3 {
+  top: -100px;
+  z-index: 0;
+  padding-top: 100px;
+}
+
+#block3 * h3, p {
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+#block4 {
+  margin-top: -100px;
+}
+
+#block4 p {
+  font-family: "Neucha", cursive;
+}
+
+#block4 article > p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#block4 h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  color: #fff;
+  background-color: #b09a81;
+}
+
+p.margin30px {
+  margin-top: 30px;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+#navigation {
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+  row-gap: 20px;
+  column-height: auto;
 }
 
 html {
@@ -107,6 +255,13 @@ html {
   font-size: 16px;
   line-height: 1.6em;
   color: #2a2626;
+  overflow-y: scroll;
+}
+
+div {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -114,7 +269,7 @@ h1 {
   line-height: 1.2em;
   font-size: 72px;
   font-weight: 400;
-  top: -60px;
+  margin: 0;
 }
 
 h2 {
@@ -131,20 +286,24 @@ h3 {
   font-weight: 400;
 }
 
-section {
-  display: flex;
+iframe {
   box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  max-width: 1110px;
-  margin: 100px 165px 0;
+  top: -100px;
+}
+
+section {
+  box-sizing: border-box;
+  width: 1110px;
+  padding: 100px 0;
 }
 
 button {
   padding: 24px 12px;
+  margin: 5px 0 0 0;
   width: 150px;
+  height: auto;
   border: none;
-  background-color: #ff9800;
+  background-color: #fe8a02;
   color: white;
   font-weight: bold;
 }
