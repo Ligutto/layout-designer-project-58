@@ -104,12 +104,8 @@
   padding: 0;
 }
 
-.margin{
+.margin {
   margin: 0;
-}
-
-.float-left {
-  float: left;
 }
 
 .background1::before {
@@ -132,7 +128,7 @@
 }
 
 .background3 {
-  background-color: #2a2626;
+  background-color: #42413c;
 }
 
 .background4::before {
@@ -150,6 +146,25 @@
   left: 0;
 }
 
+.background5 {
+  background-color: #b09a81;
+  z-index: -1;
+}
+
+.background5::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
 .img-hexleton {
   max-height: 525px;
   box-sizing: border-box;
@@ -158,11 +173,20 @@
   z-index: -1;
 }
 
-.img-ikea {
+.img-pos-left {
   max-height: 100%;
   box-sizing: border-box;
   margin-right: 30px;
   left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.img-pos-right {
+  max-height: 100%;
+  box-sizing: border-box;
+  margin-left: 30px;
+  right: 0;
   top: 0;
   z-index: -1;
 }
@@ -175,7 +199,7 @@
   color: white;
 }
 
-.headerbox > h2{
+.headerbox > h2 {
   padding: 0;
   margin: 0;
   font-size: 52px;
@@ -201,8 +225,8 @@
   z-index: 1;
 }
 
-#block2 > p {
-  margin-bottom: 30px;  
+#block2 p {
+  margin: 27px 0 30px 0;
 }
 
 #block3 {
@@ -211,13 +235,28 @@
   padding-top: 100px;
 }
 
-#block3 * h3, p {
+#block3 .box:hover {
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+#block3 h3 {
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+#block3 p {
   margin: 0;
   padding-bottom: 16px;
 }
 
 #block4 {
   margin-top: -100px;
+}
+
+#block4 p.c-htr-dark {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
 }
 
 #block4 p {
@@ -232,6 +271,107 @@
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff;
+  background-color: #b09a81;
+}
+
+#block5 {
+  color: #fff;
+}
+
+#block5 p.c-htr-white {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+}
+
+#block5 p {
+  font-family: "Neucha", cursive;
+}
+
+#block5 article > p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#block5 h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #b09a81;
+  background-color: #fff;
+}
+
+#block6 p.c-htr-dark {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+}
+
+#block6 p {
+  font-family: "Neucha", cursive;
+}
+
+#block6 article > p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#block6 h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff;
+  background-color: #b09a81;
+}
+
+#block7 {
+  color: #fff;
+}
+
+#block7 p.c-htr-white {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+}
+
+#block7 p {
+  font-family: "Neucha", cursive;
+}
+
+#block7 article > p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#block7 h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #b09a81;
+  background-color: #fff;
+}
+
+#block8 p.c-htr-dark {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+}
+
+#block8 p {
+  font-family: "Neucha", cursive;
+}
+
+#block8 article > p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#block8 h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  box-sizing: border-box;
   width: 100%;
   color: #fff;
   background-color: #b09a81;
@@ -312,4 +452,16 @@ button:hover {
   cursor: pointer;
   top: 2px;
   left: 2px;
+}
+
+footer > section > div {
+  color: #fff;
+  padding: 55px;
+}
+
+form {
+  marging: 0;
+  height: 50px;
+  width: 500px;
+  padding: 15px;
 }
