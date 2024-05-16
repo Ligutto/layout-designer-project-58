@@ -212,7 +212,6 @@
   box-sizing: border-box;
   max-height: 350px;
   width: 350px;
-  text-color: #2a2626;
   color: white;
 }
 
@@ -404,7 +403,6 @@ p.margin30px {
   grid-template-columns: auto auto auto;
   column-gap: 30px;
   row-gap: 20px;
-  column-height: auto;
 }
 
 html {
@@ -419,10 +417,6 @@ header {
   box-sizing: border-box;
   width: 1440px;
   height: 100%;
-}
-
-footer {
-  
 }
 
 div[id*='block'] {
@@ -537,7 +531,7 @@ input {
 }
 
 button[type="submit"] {
-  border-box: box-sizing;
+  box-sizing: border-box;
   height: 50px;
   width: 70px;
   top: 0;
