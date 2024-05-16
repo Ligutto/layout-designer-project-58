@@ -76,6 +76,11 @@
   align-items: center;
 }
 
+.centered-space {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .text-centered {
   text-align: center;
 }
@@ -163,6 +168,18 @@
   top: 0;
   left: 0;
   opacity: 0.1;
+}
+
+.send::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/Ligutto/layout-designer-project-58/c7851c96b231017fedec10e0d5d013d9bcca2e88/Assets/send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .img-hexleton {
@@ -437,7 +454,7 @@ section {
   padding: 100px 0;
 }
 
-button {
+#block1 button {
   padding: 24px 12px;
   margin: 5px 0 0 0;
   width: 150px;
@@ -448,10 +465,14 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+#block1 button:hover {
   cursor: pointer;
   top: 2px;
   left: 2px;
+}
+
+footer h3 {
+  margin: 0;
 }
 
 footer > section > div {
@@ -459,9 +480,59 @@ footer > section > div {
   padding: 55px;
 }
 
-form {
-  marging: 0;
+#footer label {
+  margin-bottom: 0.5em;
+  font-size: 18px;
+}
+
+#footer > section > div > p {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+}
+
+#footer > section > div > form p {
+  font-size: 12px;
+  color: #fff;
+}
+
+.link-1 {
+  font-size: 12px;
+  color: #fff;
+}
+
+.link-1:visited {
+  font-size: 12px;
+  color: #fff;
+}
+
+.link-2 {
+  color: #1085c5;
+}
+
+input {
+  font-size: 15px;
+  border: none;
+  color: #757575;
   height: 50px;
   width: 500px;
-  padding: 15px;
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+
+button[type="submit"] {
+  border-box: box-sizing;
+  height: 50px;
+  width: 70px;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: #fe8a02;
+  padding: 0;
+  margin: 0;
+}
+
+button[type="submit"]:hover {
+  border: 1px solid #b09a81;
+  cursor: pointer;
 }
