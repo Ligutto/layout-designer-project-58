@@ -421,6 +421,10 @@ header {
   height: 100%;
 }
 
+footer {
+  
+}
+
 div[id*='block'] {
   box-sizing: border-box;
   width: 1440px;
@@ -482,9 +486,14 @@ footer h3 {
   margin: 0;
 }
 
+#block9 section {
+  width: 100%;
+}
+
 footer > section > div {
   color: #fff;
   padding: 55px;
+  width: 100%;
 }
 
 #block9 label {
