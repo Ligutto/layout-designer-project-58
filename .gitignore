@@ -1,8 +1,10 @@
 /node_modules/
 package-lock.json
-.github
+/.github/
 .editorconfig
 .htmlhintrc
 .stylelintrc
 .surgeignore
 Makefile
+package.json
+/styles/
