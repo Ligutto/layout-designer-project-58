@@ -115,7 +115,7 @@
 
 .background1::before {
   content: "";
-  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+  background-image: src="\\wsl.localhost\Ubuntu\home\hexlet-projects\layout-designer-project-58\src\assets\background.png";
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d7ccc0;
