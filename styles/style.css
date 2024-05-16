@@ -122,7 +122,7 @@
   position: absolute;
   opacity: 0.1;
   z-index: -2;
-  max-width: 1440px;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -145,7 +145,7 @@
   position: absolute;
   opacity: 0.1;
   z-index: -2;
-  max-width: 1440px;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -163,7 +163,7 @@
   background-size: cover;
   position: absolute;
   z-index: -1;
-  max-width: 1440px;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -400,7 +400,7 @@ p.margin30px {
   line-height: 1.2;
 }
 
-#navigation {
+#Navigation {
   grid-template-columns: auto auto auto;
   column-gap: 30px;
   row-gap: 20px;
@@ -415,9 +415,15 @@ html {
   overflow-y: scroll;
 }
 
-div {
+header {
   box-sizing: border-box;
-  width: 100%;
+  width: 1440px;
+  height: 100%;
+}
+
+div[id*='block'] {
+  box-sizing: border-box;
+  width: 1440px;
   height: 100%;
 }
 
@@ -481,18 +487,18 @@ footer > section > div {
   padding: 55px;
 }
 
-#footer label {
+#block9 label {
   margin-bottom: 0.5em;
   font-size: 18px;
 }
 
-#footer > section > div > p {
+#block9 > section > div > p {
   text-align: center;
   font-size: 14px;
   color: black;
 }
 
-#footer > section > div > form p {
+#block9 > section > div > form p {
   font-size: 12px;
   color: #fff;
 }
