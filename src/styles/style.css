@@ -224,7 +224,7 @@
 
 .number {
   font-family: "Neucha", cursive;
-  padding-bottom: 40px;
+  margin: 0 0 40px 0;
   font-size: 64px;
   line-height: 1;
 }
@@ -234,7 +234,8 @@
   z-index: 1;
 }
 
-#block2 p {
+#block2 > section p {
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   margin: 27px 0 30px 0;
@@ -256,11 +257,6 @@
 }
 
 #block3 h3 {
-  margin: 0;
-  padding-bottom: 16px;
-}
-
-#block3 p {
   margin: 0;
   padding-bottom: 16px;
 }
