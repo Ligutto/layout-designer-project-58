@@ -250,6 +250,11 @@
   background-color: #fe8a02;
 }
 
+#block3 .box:hover > h3 {
+  cursor: pointer;
+  color: #fff;
+}
+
 #block3 h3 {
   margin: 0;
   padding-bottom: 16px;
