@@ -115,10 +115,10 @@
 
 .background1::before {
   content: "";
-  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+  background-image: url(../assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: ;
+  background-position: center;
   position: absolute;
   opacity: 0.1;
   width: 100%;
@@ -137,10 +137,10 @@
 
 .background4::before {
   content: "";
-  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+  background-image: url(../assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: ##f5f4f0;
+  background-color: #f5f4f0;
   position: absolute;
   opacity: 0.1;
   width: 100%;
@@ -156,7 +156,7 @@
 
 .background5::before {
   content: "";
-  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
+  background-image: url(../assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -169,7 +169,7 @@
 
 .send::before {
   content: "";
-  background-image: url(https://raw.githubusercontent.com/Ligutto/layout-designer-project-58/c7851c96b231017fedec10e0d5d013d9bcca2e88/Assets/send.svg);
+  background-image: url(../assets/send.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -396,7 +396,6 @@ p.margin30px {
   grid-template-columns: auto auto auto;
   column-gap: 30px;
   row-gap: 20px;
-  column-height: auto;
 }
 
 html {
@@ -413,7 +412,7 @@ body {
   margin: 0;  
 }
 
-header {
+header, #block4, #block6, #block8 {
   box-sizing: border-box;
   background-color: #f5f4f0;
   width: 1440px;
