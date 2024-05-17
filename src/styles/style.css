@@ -482,8 +482,6 @@ section {
 
 #block1 button:hover {
   cursor: pointer;
-  top: 2px;
-  left: 2px;
 }
 
 footer h3 {
