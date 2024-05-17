@@ -469,7 +469,8 @@ section {
 
 #block1 button {
   padding: 24px 12px;
-  width: 150px;
+  font-size: 1em;
+  line-height: 1.5;
   height: auto;
   border: none;
   background-color: #fe8a02;
