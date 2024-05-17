@@ -247,7 +247,7 @@
 
 #block3 .box:hover {
   cursor: pointer;
-  opacity: 0.95;
+  background-color: #fe8a02;
 }
 
 #block3 h3 {
