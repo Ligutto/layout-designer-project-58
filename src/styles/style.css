@@ -115,7 +115,7 @@
 
 .background1::before {
   content: "";
-  background-image: url(../assets/background.png);
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d7ccc0;
@@ -138,7 +138,7 @@
 
 .background4::before {
   content: "";
-  background-image: url(../assets/background.png);
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d7ccc0;
@@ -158,7 +158,7 @@
 
 .background5::before {
   content: "";
-  background-image: url(../assets/background.png);
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/main/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -172,7 +172,7 @@
 
 .send::before {
   content: "";
-  background-image: url(../assets/send.png);
+  background-image: url(https://raw.githubusercontent.com/Ligutto/layout-designer-project-58/c7851c96b231017fedec10e0d5d013d9bcca2e88/Assets/send.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -403,9 +403,11 @@ p.margin30px {
   grid-template-columns: auto auto auto;
   column-gap: 30px;
   row-gap: 20px;
+  column-height: auto;
 }
 
 html {
+  width: 1440px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
@@ -414,18 +416,23 @@ html {
 }
 
 body {
-  margin: 0;
+  width: 1440px;
+  margin: 0;  
 }
 
 header {
   box-sizing: border-box;
-  width: 100%;
+  width: 1440px;
   height: 100%;
+}
+
+header article {
+  margin-top: 185px;
 }
 
 div[id*='block'] {
   box-sizing: border-box;
-  width: 100%;
+  width: 1440px;
   height: 100%;
 }
 
@@ -465,13 +472,13 @@ section {
 
 #block1 button {
   padding: 24px 12px;
-  margin: 5px 0 0 0;
   width: 150px;
   height: auto;
   border: none;
   background-color: #fe8a02;
   color: white;
   font-weight: bold;
+  margin-top: 40px;
 }
 
 #block1 button:hover {
