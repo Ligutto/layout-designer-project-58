@@ -265,13 +265,13 @@
   padding-bottom: 16px;
 }
 
-#block4 {
-  margin-top: -100px;
-}
-
 #block4 p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
+}
+
+#block4 {
+  margin-top: -100px;
 }
 
 #block4, #block5, #block6, #block6, #block8 article > p {
