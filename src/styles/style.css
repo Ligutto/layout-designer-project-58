@@ -1,6 +1,10 @@
 /** CSS STYLE **/
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+.font-neucha {
+  font-family: "Neucha", cursive;  
+}
+
 .c-white {
   color: #fff;
 }
@@ -270,10 +274,6 @@
   font-size: 24px;
 }
 
-#block4 p {
-  font-family: "Neucha", cursive;
-}
-
 #block4 article > p {
   margin-top: 0;
   font-family: "Open Sans", sans-serif;
@@ -298,10 +298,6 @@
   font-size: 24px;
 }
 
-#block5 p {
-  font-family: "Neucha", cursive;
-}
-
 #block5 article > p {
   margin-top: 0;
   font-family: "Open Sans", sans-serif;
@@ -320,10 +316,6 @@
 #block6 p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
-}
-
-#block6 p {
-  font-family: "Neucha", cursive;
 }
 
 #block6 article > p {
@@ -350,10 +342,6 @@
   font-size: 24px;
 }
 
-#block7 p {
-  font-family: "Neucha", cursive;
-}
-
 #block7 article > p {
   margin-top: 0;
   font-family: "Open Sans", sans-serif;
@@ -372,10 +360,6 @@
 #block8 p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
-}
-
-#block8 p {
-  font-family: "Neucha", cursive;
 }
 
 #block8 article > p {
@@ -453,6 +437,7 @@ h2 {
   line-height: 1.2em;
   font-size: 60px;
   font-weight: 400;
+  margin: 0;
 }
 
 h3 {
@@ -460,12 +445,14 @@ h3 {
   line-height: 1.2em;
   font-size: 34px;
   font-weight: 400;
+  margin: 0;
 }
 
 h4 {
   line-height: 1.2em;
   font-size: 14px;
   font-weight: 700;
+  margin: 0;
 }
 
 iframe {
