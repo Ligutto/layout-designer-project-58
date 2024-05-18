@@ -81,7 +81,7 @@
 }
 
 .centered-space {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -472,13 +472,14 @@ section {
 }
 
 footer h3 {
-  margin: 0;
+  margin: 55px 0;
 }
 
 footer > section > div {
   box-sizing: border-box;
   color: #fff;
-  padding: 55px;
+  padding: 0 55px;
+  margin-bottom: 60px;
   width: 100%;
 }
 
