@@ -408,6 +408,7 @@ header, #block4, #block6, #block8 {
   background-color: #f5f4f0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 header article {
