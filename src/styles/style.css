@@ -271,7 +271,7 @@
   font-size: 24px;
 }
 
-#block4, #block5, #block6, #block6, #block8 article > p {
+#block4 article > p, #block5 article > p, #block6 article > p, #block7 article > p, #block8 article > p {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
