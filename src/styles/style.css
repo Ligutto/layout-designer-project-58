@@ -270,13 +270,13 @@
   font-size: 24px;
 }
 
-#block4 {
-  margin-top: -100px;
-}
-
 #block4, #block5, #block6, #block6, #block8 article > p {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+}
+
+#block4 {
+  margin-top: -100px;
 }
 
 #block4 h4 {
