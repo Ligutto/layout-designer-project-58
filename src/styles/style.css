@@ -266,6 +266,11 @@ padding-top: 100px;
   color: #fff;
 }
 
+#navigation > section h3 {
+  margin: 0;
+  padding-bottom: 16px;
+}
+
 #navigation p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
