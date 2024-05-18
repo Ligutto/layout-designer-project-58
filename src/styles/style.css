@@ -409,7 +409,7 @@ header, #block4, #block6, #block8 {
   background-color: #f5f4f0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 header article {
@@ -473,7 +473,8 @@ section {
   padding: 12px 24px;
   font-size: 1em;
   line-height: 1.6;
-  height: auto;
+  width: 148px;
+  height: 49px;
   border: none;
   background-color: #fe8a02;
   color: white;
