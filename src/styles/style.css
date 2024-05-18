@@ -271,7 +271,7 @@ padding-top: 100px;
   padding-bottom: 16px;
 }
 
-#navigation p.c-htr-dark {
+#ikea-effect p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
 }
@@ -475,28 +475,25 @@ footer h3 {
   margin: 0;
 }
 
-#block9 section {
-  width: 100%;
-}
-
 footer > section > div {
+  box-sizing: border-box;
   color: #fff;
   padding: 55px;
   width: 100%;
 }
 
-#block9 label {
+footer label {
   margin-bottom: 0.5em;
   font-size: 18px;
 }
 
-#block9 > section > div > p {
+footer > section > div > p {
   text-align: center;
   font-size: 14px;
   color: black;
 }
 
-#block9 > section > div > form p {
+footer > section > div > form p {
   font-size: 12px;
   color: #fff;
 }
