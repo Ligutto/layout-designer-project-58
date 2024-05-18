@@ -246,41 +246,46 @@
   margin: 30px 0;
 }
 
-#block3 {
-  top: -100px;
-  padding-top: 100px;
+#navigation {
+top: -100px;
+padding-top: 100px;
 }
 
-#block3 .box:hover {
+#navigation, #ikea-effect, #premature-optimization, #distortion-of-novelty,  #hyperbolic-depreciation, #errors-of-planning {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+#navigation > section .box:hover {
   cursor: pointer;
   background-color: #fe8a02;
 }
 
-#block3 .box:hover > h3 {
+#navigation > section > .box:hover h3 {
+  color: #fff;
+}
+
+#navigation > section h3 {
   cursor: pointer;
   color: #fff;
 }
 
-#block3 h3 {
-  margin: 0;
-  padding-bottom: 16px;
-}
-
-#block4 p.c-htr-dark {
+#navigation p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
 }
 
-#block4 article > p, #block5 article > p, #block6 article > p, #block7 article > p, #block8 article > p {
+#ikea-effect article > p, #premature-optimization article > p, #distortion-of-novelty article > p, #hyperbolic-depreciation article > p, #errors-of-planning article > p {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
 
-#block4 {
+#ikea-effect {
   margin-top: -100px;
 }
 
-#block4 h4 {
+#ikea-effect h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
@@ -290,21 +295,16 @@
   background-color: #b09a81;
 }
 
-#block5 {
+#premature-optimization {
   color: #fff;
 }
 
-#block5 p.c-htr-white {
+#premature-optimization p.c-htr-white {
   font-family: "Neucha", cursive;
   font-size: 24px;
 }
 
-#block5 article > p {
-  margin-top: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-#block5 h4 {
+#premature-optimization h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
@@ -314,17 +314,12 @@
   background-color: #fff;
 }
 
-#block6 p.c-htr-dark {
+#distortion-of-novelty p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
 }
 
-#block6 article > p {
-  margin-top: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-#block6 h4 {
+#distortion-of-novelty h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
@@ -334,21 +329,16 @@
   background-color: #b09a81;
 }
 
-#block7 {
+#hyperbolic-depreciation {
   color: #fff;
 }
 
-#block7 p.c-htr-white {
+#hyperbolic-depreciation p.c-htr-white {
   font-family: "Neucha", cursive;
   font-size: 24px;
 }
 
-#block7 article > p {
-  margin-top: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-#block7 h4 {
+#hyperbolic-depreciation h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
@@ -358,17 +348,12 @@
   background-color: #fff;
 }
 
-#block8 p.c-htr-dark {
+#errors-of-planning p.c-htr-dark {
   font-family: "Neucha", cursive;
   font-size: 24px;
 }
 
-#block8 article > p {
-  margin-top: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-#block8 h4 {
+#errors-of-planning h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
@@ -384,7 +369,7 @@ p.margin30px {
   line-height: 1.2;
 }
 
-#Navigation {
+.grid {
   grid-template-columns: auto auto auto;
   column-gap: 30px;
   row-gap: 20px;
@@ -404,7 +389,7 @@ body {
   margin: 0;  
 }
 
-header, #block4, #block6, #block8 {
+header, #ikea-effect, #distortion-of-novelty, #errors-of-planning {
   box-sizing: border-box;
   background-color: #f5f4f0;
   width: 100%;
