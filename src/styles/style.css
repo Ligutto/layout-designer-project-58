@@ -1,5 +1,5 @@
 /** CSS STYLE **/
-@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap";
 
 .font-neucha {
   font-family: Neucha, cursive;
@@ -216,6 +216,38 @@
   color: white;
 }
 
+
+h1 {
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h4 {
+  line-height: 1.2em;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
 .headerbox > h2 {
   padding: 0;
   margin: 0;
@@ -232,9 +264,22 @@
 
 .number {
   font-family: Neucha, cursive;
-  margin: 0 0 40px 0;
+  margin: 0 0 40px;
   font-size: 64px;
   line-height: 1;
+}
+
+header article > p {
+  margin: 16px 0 0;
+}
+
+
+footer > section > div > p {
+  font-size: 14px;
+}
+
+footer > section > div > form p {
+  font-size: 12px;
 }
 
 #block2 > section {
@@ -268,13 +313,13 @@
   background-color: #fe8a02;
 }
 
-#navigation > section > .box:hover h3 {
-  color: #fff;
-}
-
 #navigation > section h3 {
   margin: 0;
   padding-bottom: 16px;
+}
+
+#navigation > section > .box:hover h3 {
+  color: #fff;
 }
 
 #ikea-effect p.c-htr-dark {
@@ -395,7 +440,8 @@ html {
 }
 
 body,
-main, footer {
+main,
+footer {
   width: 100%;
   margin: 0;
 }
@@ -413,41 +459,6 @@ header,
 
 header article {
   margin-top: 185px;
-}
-
-header article>p {
-  margin: 16px 0 0 0;
-}
-
-h1 {
-  font-family: Neucha, cursive;
-  line-height: 1.2em;
-  font-size: 72px;
-  font-weight: 400;
-  margin: 0;
-}
-
-h2 {
-  font-family: Neucha, cursive;
-  line-height: 1.2em;
-  font-size: 60px;
-  font-weight: 400;
-  margin: 0;
-}
-
-h3 {
-  font-family: Neucha, cursive;
-  line-height: 1.2em;
-  font-size: 34px;
-  font-weight: 400;
-  margin: 0;
-}
-
-h4 {
-  line-height: 1.2em;
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0;
 }
 
 iframe {
@@ -493,14 +504,6 @@ footer > section > div.d-flex {
 footer label {
   margin-bottom: 0.5em;
   font-size: 18px;
-}
-
-footer > section > div > p {
-  font-size: 14px;
-}
-
-footer > section > div > form p {
-  font-size: 12px;
 }
 
 .link-1 {
