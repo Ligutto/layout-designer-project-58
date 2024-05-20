@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 .font-neucha {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
 }
 
 .c-white {
@@ -119,7 +119,7 @@
 
 .background1::before {
   content: "";
-  background-image: url(../assets/background.png);
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -141,7 +141,7 @@
 
 .background4::before {
   content: "";
-  background-image: url(../assets/background.png);
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #f5f4f0;
@@ -161,7 +161,7 @@
 
 .background5::before {
   content: "";
-  background-image: url(../assets/background.png);
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -175,7 +175,7 @@
 
 .send::before {
   content: "";
-  background-image: url(../assets/send.svg);
+  background-image: url("../assets/send.svg");
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -216,7 +216,7 @@
   color: white;
 }
 
-.headerbox>h2 {
+.headerbox > h2 {
   padding: 0;
   margin: 0;
   font-size: 52px;
@@ -231,18 +231,18 @@
 }
 
 .number {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   margin: 0 0 40px 0;
   font-size: 64px;
   line-height: 1;
 }
 
-#block2>section {
+#block2 > section {
   padding-bottom: 0;
   z-index: 1;
 }
 
-#block2>section p {
+#block2 > section p {
   margin: 30px 0;
 }
 
@@ -251,7 +251,8 @@
   padding-top: 100px;
 }
 
-#navigation, #block2,
+#navigation,
+#block2,
 #ikea-effect,
 #premature-optimization,
 #distortion-of-novelty,
@@ -262,30 +263,30 @@
   height: 100%;
 }
 
-#navigation>section .box:hover {
+#navigation > section .box:hover {
   cursor: pointer;
   background-color: #fe8a02;
 }
 
-#navigation>section>.box:hover h3 {
+#navigation > section > .box:hover h3 {
   color: #fff;
 }
 
-#navigation>section h3 {
+#navigation > section h3 {
   margin: 0;
   padding-bottom: 16px;
 }
 
 #ikea-effect p.c-htr-dark {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 24px;
 }
 
-#ikea-effect article>p,
-#premature-optimization article>p,
-#distortion-of-novelty article>p,
-#hyperbolic-depreciation article>p,
-#errors-in-planning article>p {
+#ikea-effect article > p,
+#premature-optimization article > p,
+#distortion-of-novelty article > p,
+#hyperbolic-depreciation article > p,
+#errors-in-planning article > p {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
@@ -309,7 +310,7 @@
 }
 
 #premature-optimization p.c-htr-white {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 24px;
 }
 
@@ -324,7 +325,7 @@
 }
 
 #distortion-of-novelty p.c-htr-dark {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 24px;
 }
 
@@ -343,7 +344,7 @@
 }
 
 #hyperbolic-depreciation p.c-htr-white {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 24px;
 }
 
@@ -358,7 +359,7 @@
 }
 
 #errors-in-planning p.c-htr-dark {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 24px;
 }
 
@@ -419,7 +420,7 @@ header article>p {
 }
 
 h1 {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-size: 72px;
   font-weight: 400;
@@ -427,7 +428,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-size: 60px;
   font-weight: 400;
@@ -435,7 +436,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-size: 34px;
   font-weight: 400;
@@ -482,7 +483,7 @@ footer h3 {
   margin: 55px 0;
 }
 
-footer>section>div.d-flex {
+footer > section > div.d-flex {
   box-sizing: border-box;
   padding: 0 55px;
   margin-bottom: 60px;
@@ -494,11 +495,11 @@ footer label {
   font-size: 18px;
 }
 
-footer>section>div>p {
+footer > section > div > p {
   font-size: 14px;
 }
 
-footer>section>div>form p {
+footer > section > div > form p {
   font-size: 12px;
 }
 
