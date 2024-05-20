@@ -448,7 +448,7 @@ iframe {
   border: none;
 }
 
-section {
+section, footer {
   box-sizing: border-box;
   width: 1110px;
   padding: 100px 0;
@@ -475,7 +475,7 @@ footer h3 {
   margin: 55px 0;
 }
 
-footer > section > div.d-flex {
+footer > div.d-flex {
 
   box-sizing: border-box;
   padding: 0 55px;
@@ -488,11 +488,11 @@ footer label {
   font-size: 18px;
 }
 
-footer > section > div > p {
+footer > div > p {
   font-size: 14px;
 }
 
-footer > section > div > form p {
+footer > div > form p {
   font-size: 12px;
 }
 
