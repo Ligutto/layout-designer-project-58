@@ -216,7 +216,6 @@
   color: white;
 }
 
-
 h1 {
   font-family: Neucha, cursive;
   line-height: 1.2em;
@@ -273,13 +272,18 @@ header article > p {
   margin: 16px 0 0;
 }
 
-
 footer > section > div > p {
   font-size: 14px;
 }
 
 footer > section > div > form p {
   font-size: 12px;
+}
+
+section {
+  box-sizing: border-box;
+  width: 1110px;
+  padding: 100px 0;
 }
 
 #block2 > section {
@@ -312,6 +316,12 @@ footer > section > div > form p {
   cursor: pointer;
   background-color: #fe8a02;
 }
+
+
+footer h3 {
+  margin: 55px 0;
+}
+
 
 #navigation > section h3 {
   margin: 0;
@@ -467,12 +477,6 @@ iframe {
   border: none;
 }
 
-section {
-  box-sizing: border-box;
-  width: 1110px;
-  padding: 100px 0;
-}
-
 #block1 button {
   padding: 12px 24px;
   font-size: 1em;
@@ -488,10 +492,6 @@ section {
 
 #block1 button:hover {
   cursor: pointer;
-}
-
-footer h3 {
-  margin: 55px 0;
 }
 
 footer > section > div.d-flex {
